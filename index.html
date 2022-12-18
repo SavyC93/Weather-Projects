@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="SRC/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d0281da1da.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Weather Website ⛈</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="citySearch">
+        <form class="searchBar" id="search-bar">
+          <input
+            type="search"
+            placeholder="Find your city here"
+            autocomplete="off"
+            id="city-search"
+          />
+          <input type="submit" value="Search" />
+        </form>
+        <button id="get-current-location">Current Location</button>
+      </div>
+      <div class="row" width="50px">
+        <div class="col-2" class="temperature">
+          <div class="temps">
+            <h1 id="today-temp">81</h1>
+            <a href="#" class="f" id="f-degree">°F</a>
+            <a href="#" class="c" id="c-degree">°C</a>
+            <div class="high">83°</div>
+            <div class="slash">/</div>
+            <div class="low">54°</div>
+            <i class="fa-solid fa-cloud cloudy"></i>
+          </div>
+        </div>
+        <div class="col-4">
+          <h2 id="city-now">San Antonio</h2>
+        </div>
+        <div class="col-3"><h3>11/6/22</h3></div>
+        <div class="col-2"><h4>1:45pm</h4></div>
+        <div class="dailyInfo">
+          <div class="row">
+            <div class="col-3" id="humidity">Humidity: 62%</div>
+            <div class="col-8" id="wind">Wind: 8mph</div>
+            <div class="col-3" id="air-quality">Air Quality: 👍</div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div class="row futureDays">
+          <div class="col-2">Tomorrow</div>
+          <div class="col-2">Tuesday</div>
+          <div class="col-2">Wednesday</div>
+          <div class="col-2">Thursday</div>
+          <div class="col-2">Friday</div>
+        </div>
+        <div class="row futureTemps">
+          <div class="col-2 tomorrowTemp">
+            54°/83°
+            <i class="fa-solid fa-cloud tomorrowCloud"></i>
+          </div>
+          <div class="col-2 tuesTemp">
+            69°/82°
+            <i class="fa-solid fa-cloud-rain tuesWeather"></i>
+          </div>
+          <div class="col-2 wedTemp">
+            65°/80°
+            <i class="fa-solid fa-cloud-sun wedWeather"></i>
+          </div>
+          <div class="col-2 thursTemp">
+            64°/81°
+            <i class="fa-solid fa-sun thursWeather"></i>
+          </div>
+          <div class="col-2 friTemp">
+            61°/79°
+            <i class="fa-solid fa-sun friWeather"></i>
+          </div>
+        </div>
+      </div>
+      <br />
+      <hr />
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>

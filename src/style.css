@@ -1,0 +1,296 @@
+.width {
+  width: 100%;
+  max-width: 1200px;
+}
+.citySearch {
+  text-align: left;
+  padding: 10px 30px;
+}
+
+button {
+  text-align: left;
+}
+
+h1,
+.high,
+.slash,
+.low {
+  padding: 1px;
+}
+
+.temps {
+  height: 150px;
+  width: 150px;
+  border-width: 50px;
+  border: solid;
+  padding: 12px;
+  border-radius: 50%;
+  border-color: #5a6276;
+  background-color: #e9ebee;
+  position: relative;
+}
+
+.temps:hover {
+  border-color: #42a5f5;
+  background-color: #d9edfd;
+  transition: all 0.5s ease-in-out;
+}
+
+.cloudy {
+  color: #5a6276;
+  position: relative;
+  left: -27px;
+  top: -110px;
+  font-size: 30px;
+  padding: 70px 70px 0px 70px;
+}
+
+.cloudy:hover {
+  color: #42a5f5;
+  transition: all 0.5s ease-in-out;
+}
+
+h1 {
+  position: relative;
+  top: 10px;
+  left: 28px;
+  color: #5a6276;
+  font-weight: 300;
+}
+
+.high {
+  position: relative;
+  top: -15px;
+  left: 30px;
+  color: #5a6276;
+}
+
+.slash {
+  position: relative;
+  top: -28px;
+  left: 55px;
+  color: #5a6276;
+}
+
+.low {
+  position: relative;
+  top: -40px;
+  left: 65px;
+  color: #5a6276;
+}
+
+h2 {
+  color: #5a6276;
+  position: relative;
+  text-align: center;
+  top: 40px;
+  left: -40px;
+  font-size: 40px;
+}
+
+h3 {
+  color: #5a6276;
+  position: relative;
+  text-align: center;
+  top: 52px;
+  left: -50px;
+  font-size: 24px;
+}
+
+h4 {
+  color: #5a6276;
+  position: relative;
+  text-align: center;
+  top: 60px;
+  left: -55px;
+  font-size: 16px;
+}
+
+.f {
+  position: relative;
+  color: #5a6276;
+  top: -26px;
+  left: 77px;
+}
+
+.c {
+  position: relative;
+  color: #5a6276;
+  top: -26px;
+  left: 77px;
+}
+
+.dailyInfo {
+  position: relative;
+  color: #5a6276;
+  top: -60px;
+  left: 170px;
+}
+
+.futureDays {
+  color: #5a6276;
+  position: relative;
+  left: 25px;
+  text-align: relative;
+  font-size: 24px;
+}
+
+.futureTemps {
+  color: #5a6276;
+  text-align: center;
+  position: relative;
+}
+
+.tomorrowTemp {
+  font-size: 16px;
+  position: relative;
+  width: 75px;
+  height: 75px;
+  border: solid;
+  border-radius: 50%;
+  padding: 25px 25px;
+  border-color: #5a6276;
+  background-color: #e9ebee;
+}
+.tomorrowCloud {
+  position: relative;
+  top: -43px;
+  left: -30px;
+  font-size: 24px;
+  padding: 50px 40px 0px 40px;
+}
+
+.tuesTemp {
+  font-size: 16px;
+  position: relative;
+  width: 75px;
+  height: 75px;
+  border: solid;
+  border-radius: 50%;
+  padding: 25px 10px;
+  border-color: #5a6276;
+  background-color: #e9ebee;
+}
+
+.tuesWeather {
+  position: relative;
+  top: -40px;
+  left: -28px;
+  font-size: 30px;
+  padding: 50px 40px 0px 40px;
+}
+
+.wedTemp {
+  font-size: 16px;
+  position: relative;
+  width: 75px;
+  height: 75px;
+  border: solid;
+  border-radius: 50%;
+  padding: 25px 10px;
+  border-color: #5a6276;
+  background-color: #e9ebee;
+}
+
+.wedWeather {
+  position: relative;
+  font-size: 30px;
+  top: -48px;
+  left: -36px;
+  padding: 50px 40px 0px 40px;
+}
+
+.thursTemp {
+  font-size: 16px;
+  position: relative;
+  width: 75px;
+  height: 75px;
+  border: solid;
+  border-radius: 50%;
+  padding: 25px 10px;
+  border-color: #5a6276;
+  background-color: #e9ebee;
+}
+
+.thursWeather {
+  position: relative;
+  font-size: 30px;
+  top: -42px;
+  left: -29px;
+  padding: 50px 40px 0px 40px;
+}
+
+.friTemp {
+  font-size: 16px;
+  position: relative;
+  width: 75px;
+  height: 75px;
+  border: solid;
+  border-radius: 50%;
+  padding: 25px 10px;
+  border-color: #5a6276;
+  background-color: #e9ebee;
+}
+
+.friWeather {
+  position: relative;
+  font-size: 30px;
+  top: -42px;
+  left: -29px;
+  padding: 50px 40px 0px 40px;
+}
+
+.tomorrowTemp:hover {
+  border-color: #42a5f5;
+  background-color: #d9edfd;
+  transition: all 0.3s ease-in-out;
+}
+
+.tomorrowCloud:hover {
+  color: #42a5f5;
+  transition: all 0.3s ease-in-out;
+}
+
+.tuesTemp:hover {
+  border-color: #42a5f5;
+  background-color: #d9edfd;
+  transition: all 0.3s ease-in-out;
+}
+
+.tuesWeather:hover {
+  color: #42a5f5;
+  transition: all 0.3s ease-in-out;
+}
+
+.wedTemp:hover {
+  border-color: #42a5f5;
+  background-color: #d9edfd;
+  transition: all 0.3s ease-in-out;
+}
+
+.wedWeather:hover {
+  color: #42a5f5;
+  transition: all 0.3s ease-in-out;
+}
+
+.thursTemp:hover {
+  border-color: #42a5f5;
+  background-color: #d9edfd;
+  transition: all 0.3s ease-in-out;
+}
+
+.thursWeather:hover {
+  color: #42a5f5;
+  transition: all 0.3s ease-in-out;
+}
+
+.friTemp:hover {
+  border-color: #42a5f5;
+  background-color: #d9edfd;
+  transition: all 0.3s ease-in-out;
+}
+
+.friWeather:hover {
+  color: #42a5f5;
+  transition: all 0.3s ease-in-out;
+}
